@@ -25,6 +25,10 @@ namespace Heist_part2.Thieves
             {
                 Console.WriteLine($"{Name} has disabled the alarm system");
             }
+            else
+            {
+                Console.WriteLine($"{Name} is hacking the alarm system.Decrease security{SkillLevel} ");
+            }
         }
     }
 

@@ -21,7 +21,11 @@ namespace Heist_part2.Thieves
             bank.VaultScore--;
             if (bank.VaultScore <= 0)
             {
-                Console.WriteLine();
+                Console.WriteLine($"{Name} Crack the valut");
+            }
+            else
+            {
+                Console.WriteLine($"{Name} is Crack the Valut .Decrease Security{SkillLevel}");
             }
         }
 
